@@ -2,15 +2,16 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   title: {
-    textAlign: 'center',
-    fontWeight: 'bold',
+    textAlign: "center",
+    fontWeight: "bold",
     fontSize: 30,
-    color: '#E5BF3C'
+    color: "#E5BF3C",
+    paddingBottom: 8,
   },
   image: {
-    maxWidth:180, 
+    maxWidth: 180,
     maxHeight: 111,
-    alignSelf:'center',
-    resizeMode: 'contain',
+    alignSelf: "center",
+    resizeMode: "contain",
   },
 });
