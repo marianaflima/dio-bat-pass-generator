@@ -4,7 +4,6 @@ import * as Clipboard from "expo-clipboard";
 
 import { styles } from "./BatButtonStyles";
 import { BatTextInput } from "../BatTextInput/BatTextInput";
-import { BatPassLengthInput } from "../BatPassLengthInput/BatPassLengthInput";
 import generatePass from "../../services/passwordService";
 
 export function BatButton() {
@@ -23,8 +22,7 @@ export function BatButton() {
 
   return (
     <>
-      <BatTextInput pass={pass} />
-      <BatPassLengthInput length={numero} setLength={setNumero} />
+      <BatTextInput pass={pass} length={numero} setLength={setNumero}/>
 
       <Pressable
         style={styles.button}
